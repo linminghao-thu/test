@@ -1,8 +1,6 @@
-# pytestDemo
+# 接口自动化
 
 本项目实现接口自动化的技术选型：**Python+Requests+Pytest+YAML+Allure** ，主要是针对本人的一个接口项目来开展的，通过 Python+Requests 来发送和处理HTTP协议的请求接口，使用 Pytest 作为测试执行器，使用 YAML 来管理测试数据，使用 Allure 来生成测试报告。
-
->相关接口项目：[使用 Python+Flask+MySQL+Redis 开发简单接口实例](https://github.com/wintests/flaskDemo)
 
 ## 项目说明
 
@@ -26,7 +24,7 @@ pip3 install -r requirements.txt
 pytest
 ```
 
-**注意**：因为我这里是针对自己的接口项目进行测试，如果想直接执行我的测试用例来查看效果，需要提前部署上面提到的 [flaskDemo](https://github.com/wintests/flaskDemo) 接口项目。
+**注意**：因为我这里是针对自己的接口项目进行测试，如果想直接执行我的测试用例来查看效果，需要提前部署APIInstance接口项目。
 
 ## 项目结构
 
@@ -56,6 +54,3 @@ pytest
 allure serve ./report
 ```
 
-最终，可以看到测试报告的效果图如下：
-
-![image.png](https://upload-images.jianshu.io/upload_images/16853007-248f805c82dbf99c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
